@@ -35,10 +35,10 @@
       <li role="presentation"><a href="#q3" aria-controls="messages" role="tab" data-toggle="tab">Q3</a></li>
       <li role="presentation"><a href="#q4" aria-controls="settings" role="tab" data-toggle="tab">Q4</a></li>
       <li role="presentation"><a href="#q5" aria-controls="settings" role="tab" data-toggle="tab">Q5</a></li>
-      <li role="presentation"><a href="#q5" aria-controls="settings" role="tab" data-toggle="tab">Q6</a></li>
-      <li role="presentation"><a href="#q5" aria-controls="settings" role="tab" data-toggle="tab">Q7</a></li>
-      <li role="presentation"><a href="#q5" aria-controls="settings" role="tab" data-toggle="tab">Q8</a></li>
-      <li role="presentation"><a href="#q5" aria-controls="settings" role="tab" data-toggle="tab">Q9</a></li>
+      <li role="presentation"><a href="#q6" aria-controls="settings" role="tab" data-toggle="tab">Q6</a></li>
+      <li role="presentation"><a href="#q7" aria-controls="settings" role="tab" data-toggle="tab">Q7</a></li>
+      <li role="presentation"><a href="#q8" aria-controls="settings" role="tab" data-toggle="tab">Q8</a></li>
+      <li role="presentation"><a href="#q9" aria-controls="settings" role="tab" data-toggle="tab">Q9</a></li>
     </ul>
     <!-- Tab panes -->
     <div class="tab-content">
@@ -228,25 +228,12 @@
   <div class="row">
     <div class="col-md-12">
       <pre> <!--Pre Code Here -->
-        function countBs(bString) {
-          var count = 0;
-          for (var i = 0; i < bString.length; i++) {
-            if (bString.charAt(i) == 'B') {
-              count = (count + 1);
-            }
-          }
-          return count;
-        }
-        $("#q4button").on("click", function() {
-          var userInput = prompt("");
-          var x = countBs(userInput);
-          $("#q4result").html(x);
-        });
+
     </pre>
     </div>
     <div class="col-md-12">
       <!--Da button -->
-      <button id="q4button" class="btn btn-success" type="button">Run Code</button>
+      <button id="q6button" class="btn btn-success" type="button">Run Code</button>
     </div>
     <div class="col-md-12">
       <!--Da Result -->
@@ -256,11 +243,71 @@
   </div>
 </div>
 
+<!-- Question 7 -->
+<div role="tabpanel" class="tab-pane" id="q7">
+  <div class="row">
+    <div class="col-md-12">
+      <pre> <!--Pre Code Here -->
+
+    </pre>
+    </div>
+    <div class="col-md-12">
+      <!--Da button -->
+      <button id="q7button" class="btn btn-success" type="button">Run Code</button>
+    </div>
+    <div class="col-md-12">
+      <!--Da Result -->
+      <div id="q7result">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Question 8-->
+<div role="tabpanel" class="tab-pane" id="q8">
+  <div class="row">
+    <div class="col-md-12">
+      <pre> <!--Pre Code Here -->
+
+    </pre>
+    </div>
+    <div class="col-md-12">
+      <!--Da button -->
+      <button id="q8button" class="btn btn-success" type="button">Run Code</button>
+    </div>
+    <div class="col-md-12">
+      <!--Da Result -->
+      <div id="q8result">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Question 9 -->
+<div role="tabpanel" class="tab-pane" id="q9">
+  <div class="row">
+    <div class="col-md-12">
+      <pre> <!--Pre Code Here -->
+
+    </pre>
+    </div>
+    <div class="col-md-12">
+      <!--Da button -->
+      <button id="q9button" class="btn btn-success" type="button">Run Code</button>
+    </div>
+    <div class="col-md-12">
+      <!--Da Result -->
+      <div id="q9result">
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
   </div>
   <script>
     $(document).ready(function() {
-      //answer question 1
+//Question 1 answer Begins
       //this function prints a triangle of # to the screen
       function getTriange() {
         var str = "";
@@ -281,7 +328,9 @@
       $("#q1button").on("click", function() {
         getTriange();
       });
-      //answer question 2
+//Question 1 answer ENDS
+
+//Question 2 answer BEGINS
       function printFooBar() {
         var print = "";
         var number = Number(1);
@@ -301,7 +350,9 @@
       $("#q2button").on("click", function() {
         printFooBar();
       });
-      //answer question 3
+//Question 2 answer ENDS
+
+//Question 3 answer BEGIN
       function chessBoard() {
         var size = prompt("Please enter a Number");
         var line = '';
@@ -322,7 +373,9 @@
       $("#q3button").on("click", function() {
         chessBoard();
       });
-      //answer 4
+//Question 3 answer END
+
+//Question 4 answer BEGINS
       function countBs(bString) {
         var count = 0;
         for (var i = 0; i < bString.length; i++) {
@@ -337,7 +390,9 @@
         var x = countBs(userInput);
         $("#q4result").html(x);
       });
-      //answer 5
+//Question 4 answers END
+
+//answer 5 BEGINS
             function countChar(cString, charMatch) {
         var count = 0;
         for (var i = 0; i < cString.length; i++) {
@@ -354,8 +409,9 @@
         $("#q5result").html(t);
       });
     });
+//Question 5 answer ENDS
 
-    // question 6
+// question 6 answer BEGINS
 
     $(document).ready(function(){
 
@@ -380,7 +436,10 @@
   });
 
       });
+//Question 6 ENDS
 
+
+//Question 7 BEGINS
       function sum(array) {
       var sm = 0;
       for (var i = 0; i < array.length; i++) {
@@ -396,13 +455,10 @@
       var sumTotal = sum(range(startNum,endNum))
       $("#q7result").html( "Answer is:" + " " + sumTotal);
       });
+//Question 7 ENDS
 
 
-
-
-  //   $("#q7button").on("click", function() {
-      //  $("#q7result").html("answer seven!");
-  // });
+//Question 8 BEGINS
 
  function reverseArray(valueA, valueB, valueC, valueD) {
 
@@ -429,12 +485,9 @@
 
             });
 
+//Question 8 answer END
 
-      //$("#q8button").on("click", function() {
-
-      //  $("#q8result").html("answer eight!");
-    //  });
-
+//Question 9 answer BEGINS
 function swapArray(valueA, valueB, valueC, valueD) {
 
                 var valueA = prompt("Enter your first character or number to be in your array?");
@@ -472,6 +525,7 @@ function swapArray(valueA, valueB, valueC, valueD) {
 
             });
         });
+//Question 9 answers END
   </script>
 </body>
 </html>
