@@ -42,7 +42,9 @@
     </ul>
     <!-- Tab panes -->
     <div class="tab-content">
+
       <!-- Question 1 -->
+
       <div role="tabpanel" class="tab-pane active" id="q1">
         <div class="row">
           <div class="col-md-12">
@@ -72,6 +74,9 @@
           </div>
         </div>
       </div>
+
+    <!-- question 2 -->
+
       <div role="tabpanel" class="tab-pane" id="q2">
         <div class="row">
           <div class="col-md-12">
@@ -108,6 +113,9 @@
           </div>
         </div>
       </div>
+
+      <!-- Question 3 -->
+
       <div role="tabpanel" class="tab-pane" id="q3">
         <div class="row">
           <div class="col-md-12">
@@ -145,6 +153,9 @@
           </div>
         </div>
       </div>
+
+      <!-- Question 4 -->
+
       <div role="tabpanel" class="tab-pane" id="q4">
         <div class="row">
           <div class="col-md-12">
@@ -176,6 +187,9 @@
           </div>
         </div>
       </div>
+
+      <!-- Question 5 -->
+
       <div role="tabpanel" class="tab-pane" id="q5">
         <div class="row">
           <div class="col-md-12">
@@ -208,6 +222,40 @@
           </div>
         </div>
       </div>
+
+<!-- Question 6 -->
+<div role="tabpanel" class="tab-pane" id="q6">
+  <div class="row">
+    <div class="col-md-12">
+      <pre> <!--Pre Code Here -->
+        function countBs(bString) {
+          var count = 0;
+          for (var i = 0; i < bString.length; i++) {
+            if (bString.charAt(i) == 'B') {
+              count = (count + 1);
+            }
+          }
+          return count;
+        }
+        $("#q4button").on("click", function() {
+          var userInput = prompt("");
+          var x = countBs(userInput);
+          $("#q4result").html(x);
+        });
+    </pre>
+    </div>
+    <div class="col-md-12">
+      <!--Da button -->
+      <button id="q4button" class="btn btn-success" type="button">Run Code</button>
+    </div>
+    <div class="col-md-12">
+      <!--Da Result -->
+      <div id="q6result">
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
   </div>
   <script>
@@ -306,6 +354,8 @@
         $("#q5result").html(t);
       });
     });
+
+    // question 6
 
     $(document).ready(function(){
 
