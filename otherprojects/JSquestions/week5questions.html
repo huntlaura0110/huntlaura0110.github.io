@@ -228,7 +228,29 @@
   <div class="row">
     <div class="col-md-12">
       <pre> <!--Pre Code Here -->
+        $(document).ready(function(){
 
+      function range (start, end){
+        var arr=[];
+        arr.push(1);
+         for (start; start <= end; start++){
+         arr.push(start);
+        }
+
+
+        return arr;//
+
+    }
+
+          $("#q6button").on("click", function() {
+            alert("Click OK to see a range from 1-6")
+            //range(3,5);
+            var rangeAnswer= range(2,6);
+
+            $("#q6result").html("Answer is: "+rangeAnswer.join());
+      });
+
+          });
     </pre>
     </div>
     <div class="col-md-12">
