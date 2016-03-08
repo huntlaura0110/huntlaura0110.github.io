@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Week 5 Questions</title>
@@ -8,15 +9,24 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body>
 
-  <!-- Nav tabs -->
+<body>
+<!-- Nav Bar -->
   <div class="navbar">
    <ul class="nav nav-tabs">
    <li class="active"><a href="../../index.html">Home</a></li>
    <li><a href="../../otherprojects/CodeAcademy/index.html">Code Academy</a></li>
    <li><a href="../../otherprojects/TicTacToe/index.html">TicTacToe Game</a></li>
-   <li><a href="index.html">JS Questions</a></li>
+   <li class="dropdown">
+   <a href="#" data-toggle="dropdown" class="dropdown-toggle"> JS Questions <b class="caret"></b></a>
+   <ul class="dropdown-menu">
+   <li><a href="Question1.html">Week 2 Question 1</a></li>
+   <li><a href="Question2.html">Week 2 Question 2</a></li>
+   <li><a href="Question3.html">Week 2 Question 3</a></li>
+   <li><a href="Question4.html">Week 2 Question 4</a></li>
+   <li><a href="week5questions.html">Week 5 Questions </a></li>
+   </ul>
+   </li>
    <li class="dropdown">
    <a href="#" data-toggle="dropdown" class="dropdown-toggle"> Twitter Bootstrap <b class="caret"></b></a>
    <ul class="dropdown-menu">
@@ -26,7 +36,8 @@
    </ul>
    </li>
    </ul>
-  </div>
+ </div>
+<!-- Nav Bar ends -->
 
   <div class="container">
     <!-- Nav tabs -->
@@ -509,8 +520,6 @@
 
 // question 6 answer BEGINS
 
-    $(document).ready(function(){
-
   function range (start, end){
     var arr=[];
     arr.push(1);
@@ -529,7 +538,6 @@
         var rangeAnswer= range(2,6);
 
         $("#q6result").html("Answer is: "+rangeAnswer.join());
-  });
 
       });
 //Question 6 ENDS
@@ -620,7 +628,6 @@ function swapArray(valueA, valueB, valueC, valueD) {
                 swapArray();
 
             });
-        });
 //Question 9 answers END
   </script>
 </body>
