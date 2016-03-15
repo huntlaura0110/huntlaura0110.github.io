@@ -9,7 +9,7 @@ $('.container').prepend(data);
 })
 
 
-$.get('http://huntlaura0110.github.io/Partials/nav.html', function(foot){
+$.get('http://huntlaura0110.github.io/Partials/footer.html', function(foot){
 
 $(document).ready(function(){
 
