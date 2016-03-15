@@ -6,12 +6,18 @@ var url = "http://huntlaura0110.github.io/otherprojects/ajaxExamples/jsonDatabas
 
   $.getJSON(url, function (data){
 
-    $.each(data, function(index, item){
-      $('#data').append(item.name);
-    })
+var html = "<table>" + "<tr><th>Name</th><th>Email</th><th>Company</th></tr>";
 
-  //  alert(data);
-  //  console.dir(data);
+    $.each(data, function(index, item){
+
+    html += "<tr><th>"+item.name+"</th><th>"+item.email+"</th><th>"+item.company+"</th></tr>";
+  }) //each
+
+    html += "</table>";
+
+    $("#data").append(html);
+
+
 
   }) //getJSON
 
