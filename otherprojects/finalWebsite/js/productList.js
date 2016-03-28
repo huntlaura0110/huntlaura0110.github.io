@@ -1,3 +1,4 @@
+//wait until the page has loaded before doing anything
 $(document).ready(function () {
     console.log('jQuery started');
 
