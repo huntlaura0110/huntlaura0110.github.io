@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$("#getClients").on("click", function() {
+$("#getOther").on("click", function() {
 
 var url = "http://huntlaura0110.github.io/otherprojects/ajaxExamples/jsonDatabase/lab9.json";
 
