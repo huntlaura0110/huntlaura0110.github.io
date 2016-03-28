@@ -1,5 +1,6 @@
-
+//wait until the page has loaded before doing anything
 $(document).ready(function () {
+    console.log('jQuery started');
 
     //hide all the movie titles initially
     $( '.basic-info h3' ).hide();
@@ -47,7 +48,7 @@ $(document).ready(function () {
       });
 
     $('.basic-info img').click(function(){
-        $(this).parent().parent().addClass('open');
+        $(this).parent().parent().addC  lass('open');
 
     });
 
