@@ -16,13 +16,13 @@ body{
     font-weight: 300;
 }
 
-    #show-list{
+    #tv-list{
         width: 940px;
         margin: 0 auto;
         padding: 20px 10px 0 10px;
     }
 
-    #show-list h2{
+    #tv-list h2{
         display: none;
     }
 
