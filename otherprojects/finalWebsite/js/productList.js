@@ -1,4 +1,3 @@
-//wait until the page has loaded before doing anything
 $(document).ready(function () {
     console.log('jQuery started');
 
@@ -48,7 +47,7 @@ $(document).ready(function () {
       });
 
     $('.basic-info img').click(function(){
-        $(this).parent().parent().addC  lass('open');
+        $(this).parent().parent().addClass('open');
 
     });
 
