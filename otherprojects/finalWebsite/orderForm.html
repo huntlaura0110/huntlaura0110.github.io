@@ -13,13 +13,74 @@
 </head>
 <body>
 
-<div class="container">
+  <div class="container">
     <div class="row">
-        <div class="col-md-12">
-Lorem Ipsum
+
+
+      <div class="col-md-12">
+        <h4> Type Name Here </h4>
+        <input id="mySingleLineText" type="text" class="form-control" placeholder="Type name here">
+      </div>
+
+      <div class="col-md-12">
+        <h4> Write Engravement Here (Optional) </h4>
+        <textarea id="myTextArea" class="form-control" rows="3">Write Engravement Here (Optional)... </textarea>
+      </div>
+
+      <div class="col-md-12">
+        <h4>Select Type of Heel</h4>
+        <select id="mySelect" class="form-control">
+          <option>Choose Type of Boot... </option>
+          <option>Heel Boot</option>
+          <option>Flat Boot</option>
+          <option>Wedge Boot</option>
+        </select>
+      </div>
+
+      <div id="mySelectMessage"></div>
+
+      <div class="col-md-12">
+        <h4>Select Length Here</h4>
+        <label id="selectInfo" class="radio-inline">
+          <input type="radio" name="length" value="Knee High"> Knee High
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="length" value="Mid Calf"> Mid Calf
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="length" value="Ankle"> Ankle
+        </label>
+      </div>
+
+      <div class="col-md-12">
+        <h4>Select Colour Here</h4>
+        <div class="checkbox">
+          <label>
+            <input name="Colour" type="checkbox" value="Black"> Black
+          </label>
         </div>
+        <div class="checkbox">
+          <label>
+            <input name="Colour" type="checkbox" value="Grey"> Grey
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input name="Colour" type="checkbox" value="Beige"> Beige
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <button id="myButton" type="button" class="btn btn-info">Buy now!</button>
+      </div>
+
+      <div class="col-md-12">
+        <div id="log"></div>
+      </div>
+
     </div>
-</div>
+  </div>
 
 
 <script src="http://huntlaura0110.github.io/otherprojects/finalWebsite/js/getNav.js"></script>
