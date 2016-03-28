@@ -2,8 +2,37 @@
 $(document).ready(function () {
     console.log('jQuery started');
 
+    // create a div for the overlay
+    var overlay = $('<div id="overlay"></div>')
+    $( 'body' ).append ( overlay );
+    overlay.hide();
+    overlay.click(function(){
+        overlay.animate({
+            opacity:0
+        },{
+            duration: 333 ,
+         queue: false,
+            complete : function(){
+                overlay.hide();
+        }
+        });
+
+        $( 'article.open').removeClass( 'open' );
+        $ ( '#youtube' ).hide();
+        $ ( '#youtbe' ).attr( 'src', 'about:blank');
+    });
+
+
+
     //hide all the movie titles initially
-    $( '.basic-info h3' ).hide();
+
+    // make a duplicated of each movies haeading annd place it to the extended info box
+    $( '.movie' ).each(function(){
+         var h3Copy = $( this ).find ('h3').clone();
+        //put at thebeigning of extended info box
+        $ ( this ).find (' .extended-info').prepend( h3Copy);
+    });
+      $( '.basic-info h3' ).hide();
 
     //rolling over poster images
       $('.basic-info img').hover(function(){
@@ -48,8 +77,32 @@ $(document).ready(function () {
       });
 
     $('.basic-info img').click(function(){
-        $(this).parent().parent().addC  lass('open');
+        $(this).parent().parent().addClass('open');
+        overlay.show();
+           overlay.animate({
+            opacity:1
+        },{
+            duration: 333 ,
+            queue: false
+
+        });
+
+    });
+
+    $( '.extended-info a' ).click (function( e){
+        // disable the hyperlink
+        e.preventDefault();
+        // reveals youtube player
+        $( '#youtube' ).show();
+        //hides the currently open extended info box
+        $ ( 'article.open').removeClass ( 'open' );
+        // read
+        var url= $( this ).attr('href');
+        var videoCode = url.split ('=').pop();
+        var embedURL = 'https://www.youtube.com/embed/' +videoCode;
+        $( '#youtube' ).attr ('src', embedURL);
 
     });
 
 });
+    
