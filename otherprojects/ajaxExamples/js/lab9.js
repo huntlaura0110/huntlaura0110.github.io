@@ -7,14 +7,14 @@ var url = "http://huntlaura0110.github.io/otherprojects/ajaxExamples/jsonDatabas
   $.getJSON(url, function (data){
 
 var html = "<table class= 'table table-hover table-striped'>" +
-"<tr><th>Name</th><th>Email</th><th>Company</th></tr>";
+"<tr><th>Age</th><th>Phone Number</th><th>Address</th></tr>";
 
     $.each(data, function(index, item){
 
     html += "<tr>" +
-    "<td>"+item.name+"</td>" +
-    "<td>"+item.email+"</td>" +
-    "<td>"+item.company+"</td>" +
+    "<td>"+item.age+"</td>" +
+    "<td>"+item.phone+"</td>" +
+    "<td>"+item.address+"</td>" +
     "</tr>";
   }) //each
 
