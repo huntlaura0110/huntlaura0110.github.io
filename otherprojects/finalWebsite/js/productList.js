@@ -26,10 +26,13 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
     $("#data").append(html);
 
-
-
   }) //getJSON
 
 }) //Click
+
+$('.extended-info').hover(function(){
+$(this).show();
+
+}); //hover
 
 }) //end
