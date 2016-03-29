@@ -28,9 +28,6 @@ body{
         margin-bottom: 20px;
     }
 
-  /*  .tv-show:nth-child(3n+1){
-        margin-right: 0;
-    } */
 
             .basic-info{
                 position: relative;
@@ -38,18 +35,7 @@ body{
                 height:450px;
             }
 
-      /*          .basic-info h3{
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    background: rgba( 0, 0, 0, 0.75 );
-                    color: white;
-                    text-align: center;
-                    text-transform: uppercase;
-                    font-size: 150%;
-                }
-*/
+
 
                 .basic-info img{
                     max-width: 100%;
