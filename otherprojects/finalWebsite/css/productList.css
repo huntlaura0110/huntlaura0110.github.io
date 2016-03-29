@@ -10,6 +10,12 @@ body{
     font-weight: 300;
 }
 
+#getInfo{
+position: relative;
+align-items: center;
+
+}
+
     #tv-list{
         width: 940px;
         margin: 0 auto;
@@ -35,12 +41,6 @@ body{
                 height:450px;
             }
 
-#getInfo{
-position: relative;
-margin-right: 10px;
-align: center;
-
-}
 
                 .basic-info img{
                     max-width: 100%;
