@@ -51,10 +51,6 @@ $(document).ready(function(){
     }, function (){
         // code that happens when mouse leaves the poster
 
-        /* target the h3 that is the tag
-        previous to the ima tag of the poster
-        and animate it away*/
-
         $(this).prev().animate({
             top: 450,
             opacity: 0
@@ -62,8 +58,6 @@ $(document).ready(function(){
             queue: false, /* prevent queueing of animation */
             duration: 300, /* how long it takes in ms */
             complete: function () {
-                /* when the animation xompletes,
-                hide the heading being animated */
                 $(this).hide();
             }
         });
