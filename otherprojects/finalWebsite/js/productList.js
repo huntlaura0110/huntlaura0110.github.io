@@ -16,8 +16,6 @@ $(document).ready(function(){
 
   });
 
-
-
   //hide all the movie titles initially
 
   // make a duplicated of each movies haeading annd place it to the extended info box
