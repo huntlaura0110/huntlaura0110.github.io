@@ -4,7 +4,7 @@ $('.basic-info').hide();
 $('.extended-info').hide();
 $('.basic-info h3').hide();
 
-$('getInfo').on('click', function() {
+$('#getInfo').on('click', function() {
 
 var url = "http://huntlaura0110.github.io/otherprojects/finalWebsite/jsonDatabase/finalWebsite.json";
 
