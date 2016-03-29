@@ -29,4 +29,4 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
 }) //Click
 
-}); //end
+}) //end
