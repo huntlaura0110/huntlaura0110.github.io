@@ -37,7 +37,6 @@ align-items: center;
 
             .basic-info{
                 position: relative;
-                overflow: hidden;
                 height:450px;
             }
 
