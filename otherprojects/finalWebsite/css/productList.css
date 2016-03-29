@@ -35,16 +35,16 @@ align-items: center;
     }
 
 
-            .basic-info{
+        /*    .basic-info{
                 position: relative;
                 overflow: hidden;
                 height:450px;
             }
+            */
 
 
                 .basic-info img{
                     max-width: 100%;
-                    cursor: pointer;
                 }
 
 
