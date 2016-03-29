@@ -1,0 +1,273 @@
+[
+{
+        "genre": "animation",
+        "name": "South Park",
+        "seasns":19,
+        "release":"",
+        "rated": "R",
+        "description": ""
+    },
+
+    {
+      "genre": "animation",
+      "name": "Simpsons",
+      "seasns": 27,
+      "release":"",
+      "rated": "R",
+      "description": ""
+    },
+
+   {
+     "genre": "animation",
+     "name": "Family Guy",
+     "seasns": 14,
+     "release":"",
+     "rated": "R",
+     "description": ""
+    },
+
+    {
+      "genre": "animation",
+      "name": "Boondocks",
+      "seasns": 4,
+      "release":"",
+      "rated": "R",
+      "description": ""
+    },
+
+   {
+     "genre": "animation",
+     "name": "Flintstones",
+     "seasns": 6,
+     "release":"",
+     "rated": "R",
+     "description": ""
+    },
+
+   {
+     "genre": "animation",
+     "name": "American Dad",
+     "seasns": 11,
+     "release":"",
+     "rated": "R",
+     "description": ""
+   },
+
+  {
+    "genre": "comedy",
+    "name": "Friends",
+    "seasns": 10,
+    "release":"",
+    "rated": "PG",
+    "description": ""
+   },
+
+   {
+     "genre": "comedy",
+     "name": "Parks and Recreation",
+     "seasns": 7,
+     "release":"",
+     "rated": "PG",
+     "description": ""
+   },
+
+  {
+    "genre": "comedy",
+    "name": "The Office",
+    "seasns": 9,
+    "release":"",
+    "rated": "PG",
+    "description": ""
+    },
+
+   {
+     "genre": "comedy",
+     "name": "Big Bang Theory",
+     "seasns": 9,
+     "release":"",
+     "rated": "PG",
+     "description": ""
+   },
+
+   {
+     "genre": "comedy",
+     "name": "How I Met Your Mother",
+     "seasns": 9,
+     "release":"",
+     "rated": "PG",
+     "description": ""
+    },
+
+   {
+     "genre": "comedy",
+     "name": "Cougar Town",
+     "seasns": 6,
+     "release":"",
+     "rated": "PG",
+     "description": ""
+    },
+
+   {
+     "genre": "drama",
+     "name": "Friday Night Lights",
+     "seasns": 5,
+     "release":"October 3, 2006",
+     "rated": "R",
+     "description": "The trials and tribulations of small town Texas football players, their friends, family, and coaching staff."
+    },
+
+    {
+      "genre": "drama",
+      "name": "Good Wife",
+      "seasns": 7,
+      "release":"September 22, 2002",
+      "rated": "R",
+      "description": "Alicia has been a good wife to her husband, a former state's attorney. After a very humiliating sex and corruption scandal, he is behind bars. She must now provide for her family and returns to work as a litigator in a law firm."
+   },
+
+   {
+     "genre": "drama",
+     "name": "Orange Is The New Black",
+     "seasns": 4,
+     "release":"July 11, 2013",
+     "rated": "R",
+     "description": "The story of Piper Chapman, a woman in her thirties who is sentenced to fifteen months in prison after being convicted of a decade-old crime of transporting money to her drug-dealing girlfriend."
+    },
+
+    {
+     "genre": "drama",
+     "name": "Breaking Bad",
+     "seasns": 5,
+     "release":"January 20, 2008",
+     "rated": "R",
+     "description": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's financial future."
+   },
+
+   {
+    "genre": "drama",
+    "name": "Homeland",
+    "seasns": 5,
+    "release":"October 2, 2011",
+    "rated": "R",
+    "description": "A bipolar CIA operative becomes convinced a prisoner of war has been turned by al-Qaeda and is planning to carry out a terrorist attack on American soil. "
+   },
+
+   {
+    "genre": "drama",
+    "name": "Grey's Anatomy",
+    "seasns": 12,
+    "release":"March 27, 2005",
+    "rated": "R",
+    "description": "A drama centered on the personal and professional lives of five surgical interns and their supervisors."
+    },
+
+    {
+     "genre": "fantasy",
+    "name": "Game of Thrones",
+    "seasns": 6,
+    "release":"April 17, 2011",
+    "rated": "R",
+    "description": "While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power. Meanwhile a forgotten race, bent on destruction, return after thousands of years in the North.."
+   },
+
+
+   {
+    "genre": "fantasy",
+    "name": "Lost",
+    "seasns": 6,
+    "release":"September 22, 2004",
+    "rated": "R",
+    "description": "The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island."
+   },
+
+   {
+   "genre": "fantasy",
+    "name": "Heroes",
+    "seasns": 4,
+    "release":" September 25, 2006",
+    "rated": "R",
+    "description": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented."
+   },
+
+   {
+    "genre": "fantasy",
+    "name": "Super Natural",
+    "seasns": 12,
+    "release":"September 13, 2005",
+    "rated": "R",
+    "description": "Two brothers follow their father's footsteps as hunters fighting evil supernatural beings of many kinds including monsters, demons, and gods that roam the earth."
+   },
+
+   {
+   "genre": "fantasy",
+   "name": "Vampire Diaries",
+   "seasns": 7,
+   "release":"September 10, 2009",
+   "rated": "R",
+   "description": "A teenage girl is torn between two vampire brothers."
+   },
+
+   {
+   "genre": "fantasy",
+   "name": "The Shannara Chronicles",
+   "seasns": 1,
+   "release":"January 5, 2016",
+   "rated": "R",
+   "description": "Series of adventures, war, and evil that occur throughout the history of the Four Lands."
+   },
+
+   {
+    "genre": "horror",
+    "name": "Dexter",
+    "seasns": 8,
+    "release":"October 1, 2006",
+    "rated": "R",
+    "description": "Dexter Morgan is a Forensics Expert, a loyal brother, boyfriend, and friend. That's what he seems to be, but that's not what he really is. Dexter Morgan is a Serial Killer that hunts the bad."
+   },
+
+   {
+     "genre": "horror",
+     "name": "Walking Dead",
+     "seasns": 6,
+     "release":"October 31, 2010",
+     "rated": "R",
+     "description": "Sheriff Deputy Rick Grimes leads a group of survivors in a world overrun by the walking dead. Fighting the dead, fearing the living."
+   },
+
+   {
+    "genre": "horror",
+    "name": "American Horror Story",
+    "seasns": 5,
+    "release":"October 5, 2011",
+    "rated": "R",
+    "description": "An anthology series that centers on different characters and locations, including a house with a murderous past, an insane asylum, a witch coven, a freak show, and an enigmatic hotel."
+   },
+
+   {
+    "genre": "horror",
+    "name": "True Blood",
+    "seasns": 7,
+    "release":"September 7, 2008",
+    "rated": "R",
+    "description": "Telepathic waitress Sookie Stackhouse encounters a strange new supernatural world when she meets the mysterious Bill, a southern Louisiana gentleman and vampire."
+   },
+
+   {
+    "genre": "horror",
+    "name": "X-Files",
+    "seasns": 10,
+    "release":"September 10, 1993",
+    "rated": "R",
+    "description": "Two FBI agents, Fox Mulder the believer and Dana Scully the skeptic, investigate the strange and unexplained while hidden forces work to impede their efforts."
+   },
+
+   {
+   "genre": "horror",
+   "name": "Sleepy Hollows",
+   "seasns": 3,
+   "release":"September 16, 2013",
+   "rated": "R",
+   "description": "Ichabod Crane is resurrected and pulled two and a half centuries through time to unravel a mystery that dates all the way back to the founding fathers."
+    }
+
+ ]
