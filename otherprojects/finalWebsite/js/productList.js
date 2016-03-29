@@ -1,5 +1,5 @@
 $(document).ready(function(){
-alert('something');
+$('.basic-info').hide();
 
 $("#getInfo").on("click", function() {
 
