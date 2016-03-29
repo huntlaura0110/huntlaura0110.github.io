@@ -31,8 +31,8 @@ var html = "<table class= 'table table-hover table-striped'>" +
 }) //Click
 
 $('.basic-info').hover(function(){
-$(this).show();
-
-}); //hover
-
+        $(this).addClass("highlight");
+    }, function(){
+        $(this).removeClass("highlight");
+    });
 }) //end
