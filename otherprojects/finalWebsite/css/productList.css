@@ -34,7 +34,11 @@ body{
 
 
 
-                .basic-info img{
-                    max-width: 100%;
-                    margin-bottom: 50px;
-                }
+        .basic-info img{
+          max-width: 100%;
+          margin-bottom: 50px;
+            }
+
+        .extended-info {
+          margin-top: 100px;
+        }
