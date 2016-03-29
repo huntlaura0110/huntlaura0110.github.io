@@ -26,9 +26,6 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
     $('.extended-info').append(html);
 
-    $('.extended-info').mouseleave(function(){
-      $(this).hide('fast');
-    });
 
 
 
