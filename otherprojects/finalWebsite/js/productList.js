@@ -30,7 +30,7 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
 }) //Click
 
-$('.basic-info').hover(function(){
+$('.basic-info img').hover(function(){
         $(this).addClass("highlight");
     }, function(){
         $(this).removeClass("highlight");
