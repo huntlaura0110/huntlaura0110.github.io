@@ -28,9 +28,9 @@ body{
         margin-bottom: 20px;
     }
 
-    .tv-show:nth-child(3n+1){
+  /*  .tv-show:nth-child(3n+1){
         margin-right: 0;
-    }
+    } */
 
             .basic-info{
                 position: relative;
