@@ -32,7 +32,7 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
 $('.basic-info img').mouseEnter(function(){
         $(this).show(".extended-info");
-    }, .mouseLeave(function(){
+    }, function(){
         $(this).hide(".extended-info");
     });
 }) //end
