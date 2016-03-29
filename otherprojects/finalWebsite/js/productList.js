@@ -24,7 +24,7 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
     html += "</table>";
 
-    $("#data").append(html);
+    $(".extended-info").append(html);
 
 
 
