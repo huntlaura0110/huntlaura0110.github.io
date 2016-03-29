@@ -30,7 +30,7 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
 }) //Click
 
-$('.basic-info img').hover(function(){
+$('.basic-info img').mouseEnter(function(){
         $(this).show(".extended-info");
     }, function(){
         $(this).hide(".extended-info");
