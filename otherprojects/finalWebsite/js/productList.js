@@ -8,7 +8,7 @@ var url = "http://huntlaura0110.github.io/otherprojects/finalWebsite/jsonDatabas
   $.getJSON(url, function (data){
 
 var html = "<table class= 'table table-hover table-striped'>" +
-"<tr><th>Name</th><th>Release Date</th><th>Seasons</th><th>Description</th></tr>";
+"<tr><th>Name</th><th>Release Date</th><th>Seasons</th><th>Description</th><th>Rated</th></tr>";
 
     $.each(data, function(index, item){
 
@@ -17,6 +17,7 @@ var html = "<table class= 'table table-hover table-striped'>" +
     "<td>"+item.release+"</td>" +
     "<td>"+item.seasons+"</td>" +
     "<td>"+item.description+"</td>" +
+    "<td>"+item.rated+"</td>" +
     "</tr>";
   }) //each
 
