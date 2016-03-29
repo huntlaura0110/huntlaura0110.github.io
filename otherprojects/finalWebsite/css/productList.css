@@ -34,9 +34,9 @@ body{
 
 
         .basic-info img{
-          max-width: 200%;
+          max-width: 100%;
           margin-top: 0px;
-          padding-bottom: 100px;
+          padding-bottom: 200px;
             }
 
         .extended-info {
