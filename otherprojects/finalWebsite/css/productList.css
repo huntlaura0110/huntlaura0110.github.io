@@ -10,20 +10,20 @@ body{
     font-weight: 300;
 }
 
+/*
 #getInfo{
 position: relative;
 align-items: center;
+padding-top: 10px;
 
 }
+
+*/
 
     #tv-list{
         width: 940px;
         margin: 0 auto;
         padding: 20px 10px 0 10px;
-    }
-
-    #tv-list h2{
-        display: none;
     }
 
     .tv-show{
