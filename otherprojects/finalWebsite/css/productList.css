@@ -10,36 +10,39 @@ body{
     font-weight: 300;
 }
 
-
-    #tv-list{
-        width: 940px;
-        margin: 0 auto;
-        padding: 20px 10px 0 10px;
+    .imgWrap {
+      position: relative;
+    /*  height: 200px; */
+      width: 257px;
     }
 
-    .tv-show{
-        width: 300px;
-        float: left;
-        margin-right: 20px;
-        margin-bottom: 20px;
+    .imgWrap img{
+      padding-bottom: 20px;
+
+    }
+
+    .imgDescription {
+      position: absolute;
+      text-align: center;
+      width: 230px;
+      top: 10px;
+      bottom: 170px;
+      left: 30px;
+      right: 0;
+      background: rgba(7, 7, 7, 0.90);
+      color: #fff;
+
+
+      visibility: hidden;
+      opacity: 0;
+
+      /*remove comment if you want a gradual transition between states
+      -webkit-transition: visibility opacity 0.2s;
+      */
     }
 
 
-        .basic-info{
-          weight: 600px;
-          position: relative;
-          height:450px;
-        }
-
-
-
-
-        .basic-info img{
-          max-width: 100%;
-          margin-top: 0px;
-          padding-bottom: 100px;
-            }
-
-        .extended-info {
-          padding-top: 30px;
-        }
+    .imgWrap:hover .imgDescription {
+      visibility: visible;
+      opacity: 1;
+    }
