@@ -1,31 +1,35 @@
 $(document).ready(function(){
 
-$("#getOther").on("click", function() {
+$('#getOther').click(function(){
+  $.getJSON("../jsonDatabase/lab9.json", function(data) {
 
-var url = "http://huntlaura0110.github.io/otherprojects/ajaxExamples/jsonDatabase/lab9.json";
+              console.dir(data);
+              var html = "";
 
-  $.getJSON(url, function (data){
-
-var html = "<table class= 'table table-hover table-striped'>" +
-"<tr><th>Age</th><th>Phone Number</th><th>Address</th></tr>";
-
-    $.each(data, function(index, item){
-
-    html += "<tr>" +
-    "<td>"+item.age+"</td>" +
-    "<td>"+item.phone+"</td>" +
-    "<td>"+item.address+"</td>" +
-    "</tr>";
-  }) //each
-
-    html += "</table>";
-
-    $("#data").append(html);
-
+              $.each(data, function(index, item) {
+                  html += '<div class="col-md-4">' +
+                    '<div class="Name">' + item.name + '</div>' +
+                    '<div class="email"><small>email </small>' + item.email + '</div>' +
+                    '<div class="gender"><small>gender</small>' + item.gender + '</div>' +
+                    '<div class="phone"><small> phone </small>' + item.phone + '</div>' +
+                    //deleted commentsContainer
+                    '<div class="panel panel-default">' + //added
+                    '<div class="panel-heading">Renter Comments</div>'; //added
+                  $.each(item.comments, function(ind, i) {
+                      html += '<div class="panel-body">' + //added
+                        '<div class="renterName">' + i.username + '</div>' +
+                        '<div class="renterComment">' + i.comment + '</div>' +
+                        '<div class="renterStars">';
 
 
-  }) //getJSON
 
-}) //Click
+                        '</div>'; //panel body
+                    }) //each comment
 
-}) // document ready
+                  html += '</div>' + //panel
+                    '</div>'; //col-md-4
+                }) //each cat
+
+          }); //click
+
+}); // document ready
