@@ -8,8 +8,13 @@
 }
 
 
-.row-footer{
-
+.homepage-animation img, .homepage-comedy img, .homepage-drama img, .homepage-fantasy img, .homepage-horror img{
+  display: none;
+  position: absolute;
+  margin-left: 600px;
+}
+.homepage-animation:hover img, .homepage-comedy:hover img, .homepage-drama:hover img, .homepage-fantasy:hover img, .homepage-horror:hover img{
+display: block
 }
 
 
