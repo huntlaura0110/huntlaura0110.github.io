@@ -10,6 +10,10 @@ body{
     font-weight: 300;
 }
 
+.homepage-imgs{
+box-shadow: 100px 100px 5px #888888;
+}
+
     .imgWrap {
       position: relative;
     /*  height: 200px; */
