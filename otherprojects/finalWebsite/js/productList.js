@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+//Get table of all info when click the button
 $("#getInfo").on("click", function() {
 
 var url = "http://huntlaura0110.github.io/otherprojects/finalWebsite/jsonDatabase/finalWebsite.json";
@@ -29,9 +30,4 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
 }) //Click
 
-$('.extended-info').hover(function(){
-        $(this).show(".basic-info img");
-    }, function(){
-        $(this).hide(".basic-info img");
-    });
 }) //end
