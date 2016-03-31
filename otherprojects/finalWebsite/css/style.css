@@ -12,6 +12,7 @@
   display: none;
   position: absolute;
   margin-left: 600px;
+  margin-top: -40px;
 }
 .homepage-animation:hover img, .homepage-comedy:hover img, .homepage-drama:hover img, .homepage-fantasy:hover img, .homepage-horror:hover img{
 display: block
