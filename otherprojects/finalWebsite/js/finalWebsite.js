@@ -43,7 +43,7 @@ $("#myButton").on("mouseenter", function() {
 //radio buttons show depending on which Genre was chosen
 $('.form-control').change(function() {
 
-if( "#animation-genre", "click"){
+if( "#animation-genre" === "click"){
 $('#animation-genre').show();
 }
 
