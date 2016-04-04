@@ -41,17 +41,17 @@ $("#myButton").on("mouseenter", function() {
 
 
 //radio buttons show depending on which Genre was chosen
-$('.form-control').on("change", function() {
+$('.form-control').change(function() {
 
-if( ".animation-genre", "click"){
-$('.animation-genre').show();
+if( "#animation-genre", "click"){
+$('#animation-genre').show();
 }
 
 else{
-  $('.comedy-genre').hide();
-  $('.drama-genre').hide();
-  $('.fantasy-genre').hide();
-  $('.horror-genre').hide();
+  $('#comedy-genre').hide();
+  $('#drama-genre').hide();
+  $('#fantasy-genre').hide();
+  $('#horror-genre').hide();
 }  //else end
 }); //radio buttons end
 
