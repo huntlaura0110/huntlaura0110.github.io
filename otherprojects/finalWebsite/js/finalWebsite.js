@@ -3,10 +3,11 @@ $(document).ready(function(){
   //change button text
 $("#myButton").on("mouseenter", function() {
     $(this).text("ORDER NOW!!!");
-  })
+  }) //mouse enter end
+
   .on("mouseleave", function() {
     $(this).text("Click Me!");
-  });
+  }); //mouse leave end
 
   //give the user a message about their selection
     $("#mySelect").on("change", function() {
@@ -14,7 +15,7 @@ $("#myButton").on("mouseenter", function() {
       var val = $(this).val();
       $("#mySelectMessage").html(val + " is a great selection!");
 
-    });
+    }); //change end
 
   //user click button
   $("#myButton").on("click", function() {
@@ -27,14 +28,14 @@ $("#myButton").on("mouseenter", function() {
   //each is a jquery loop for objects/arrays
   $("[name='season']:checked").each(function() {
     myCheckValues.push($(this).val());
-  });
+  }); //each end
 
   $("#log").append("<br>Value of input is: " + myInput);
   $("#log").append("<br>Value of textarea is: " + myTextArea);
   $("#log").append("<br>Value of select is: " + mySelect);
   $("#log").append("<br>Value of radio button is: " + myRadio);
   $("#log").append("<br>Value of checkbox is: " + myCheckValues);
-})
+}) //my button click end
 
 //Get table of all info when click the button
 $("#getInfo").on("click", function() {
@@ -66,4 +67,4 @@ var html = "<table class= 'table table-hover table-striped'>" +
 
 }) //Click
 
-})
+}) //doc end
