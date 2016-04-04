@@ -17,6 +17,7 @@ $("#myButton").on("mouseenter", function() {
 
     }); //change end
 
+
   //user click button
   $("#myButton").on("click", function() {
 
@@ -36,6 +37,36 @@ $("#myButton").on("mouseenter", function() {
   $("#log").append("<br>Value of radio button is: " + myRadio);
   $("#log").append("<br>Value of checkbox is: " + myCheckValues);
 }) //my button click end
+
+
+
+//radio buttons show depending on which Genre was chosen
+$('.form-control').on("change", function() {
+
+if( ".animation-genre", "click"){
+$('.animation-genre').show();
+}
+
+else{
+  $('.comedy-genre').hide();
+  $('.drama-genre').hide();
+  $('.fantasy-genre').hide();
+  $('.horror-genre').hide();
+}  //else end
+}); //radio buttons end
+
+
+
+
+//Check boxes show depending on which Show was chosen
+$('.checkbox').hide();
+
+$('#friends-selection').click(function(){
+$('#friends-seasons').show();
+});
+
+// Check boxes ended
+
 
 //Get table of all info when click the button
 $("#getInfo").on("click", function() {
