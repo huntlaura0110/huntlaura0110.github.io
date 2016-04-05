@@ -11,12 +11,12 @@ $("#myButton").on("mouseenter", function() {
 
 
   //give the user a message about their selection (Order Form)
-    $("#mySelect").on("change", function() {
+  //  $("#mySelect").on("change", function() {
 
-      var val = $(this).val();
-      $("#mySelectMessage").html(val + " is a great selection!");
+  //    var val = $(this).val();
+    //  $("#mySelectMessage").html(val + " is a great selection!");
 
-    }); //change end
+  //  }); //change end
 
 
   //user click button (Table)
@@ -40,32 +40,32 @@ $("#myButton").on("mouseenter", function() {
 }) //my button click end
 
 
-
 //radio buttons show depending on which Genre was chosen (Order Form)
-$('.form-control').change(function() {
-var choice = $(this).attr("id");
+$('#mySelect').on('change', function() {
 
-$("input[type='radio']").hide();
+var choice = $(this).find("option:selected").attr("id");
 
-if( choice === ".animation-genre" ){
+$(".radio-inline").hide();
+
+if( choice == "animation-genre" ){
 $('.animation-list').show();
-};
+}
 
-else if (choice === ".comedy-genre"){
+else if (choice == "comedy-genre"){
 $('.comedy-list').show();
-};
+}
 
-else if (choice === ".drama-genre"){
+else if (choice == "drama-genre"){
 $('.drama-list').show();
-};
+}
 
-else if (choice === ".fantasy-genre"){
+else if (choice == "fantasy-genre"){
 $('.fantasy-list').show();
-};
+}
 
-else if (choice ===".horror-genre"){
+else if (choice == "horror-genre"){
 $('.horror-list').show();
-};
+}
 
 }); //radio buttons end
 
