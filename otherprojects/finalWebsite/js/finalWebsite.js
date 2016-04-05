@@ -6,7 +6,7 @@ $("#myButton").on("mouseenter", function() {
   }) //mouse enter end
 
   .on("mouseleave", function() {
-    $(this).text("Click Me!");
+    $(this).text("Buy Now!");
   }); //mouse leave end
 
 
