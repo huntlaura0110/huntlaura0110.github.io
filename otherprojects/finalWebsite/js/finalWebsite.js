@@ -59,7 +59,7 @@ else{
 
 
 //Check boxes show depending on which Show was chosen
-$('.checkbox').hide();
+//$('.checkbox').hide();
 
 $('#friends-selection').click(function(){
 $('#friends-seasons').show();
