@@ -7,6 +7,10 @@ html,body{
   display: none;
 }
 
+.seasons{
+  display: none;
+}
+
 .animation-list, .comedy-list, .drama-list, .fantasy-list, .horror-list{
   font-weight: normal;
 }
