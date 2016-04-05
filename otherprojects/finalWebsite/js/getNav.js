@@ -10,12 +10,12 @@ $('.container').prepend(data);
 })
 
 //Footer for all pages
-$.get('http://huntlaura0110.github.io/otherprojects/finalWebsite/partials/footer.html', function(foot){
+//$.get('http://huntlaura0110.github.io/otherprojects/finalWebsite/partials/footer.html', function(foot){
 
-$(document).ready(function(){
+//$(document).ready(function(){
 
-$('.container').prepend(foot);
-$('.container').fadeIn('slow');
+//$('.container').prepend(foot);
+//$('.container').fadeIn('slow');
 
-})
-})
+//})
+//})
