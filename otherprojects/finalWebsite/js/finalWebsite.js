@@ -66,20 +66,85 @@ $('.fantasy-list').show();
 else if (choice == "horror-genre"){
 $('.horror-list').show();
 }
-
 }); //radio buttons end
 
 
 
 
 //Check boxes show depending on which Show was chosen (Order Form)
-//$('.checkbox').hide();
+$('input[type="radio"]').on("click", function(){
+var userValue = $(this).val();
 
-$('#friends-selection').click(function(){
-$('#friends-seasons').show();
-});
+$(".seasons").hide();
 
-// Check boxes ended
+if( userValue == "Friends" ){
+$("#friends-seasons").show();
+}
+
+else if( userValue == "The Office" ){
+$("#office-seasons").show();
+}
+
+else if( userValue == "Parks and Recreation" ){
+$("#parks-seasons").show();
+}
+
+else if(  userValue == "How I Met Your Mother"){
+$("#mother-seasons").show();
+}
+
+else if( userValue == "Big Bang Theory" ){
+$("#bang-seasons").show();
+}
+
+else if( userValue == "Cougar Town" ){
+$("#cougar-seasons").show();
+}
+
+else if( userValue == "Friday Night Lights" ){
+$("#friday-seasons").show();
+}
+
+else if( userValue == "Good Wife" ){
+$("#wife-seasons").show();
+}
+
+else if( userValue == "Orange Is The New Black" ){
+$("#orange-seasons").show();
+}
+
+else if( userValue == "Breaking Bad" ){
+$("#breakingbad-seasons").show();
+}
+
+else if( userValue == "Homeland" ){
+$("#homeland-seasons").show();
+}
+
+else if( userValue == "Grey's Anatomy" ){
+$("greys-seasons").show();
+}
+
+else if( userValue == "" ){
+$("").show();
+}
+
+else if( userValue == "" ){
+$("").show();
+}
+
+else if( userValue == "" ){
+$("").show();
+}
+
+else if( userValue == "" ){
+$("").show();
+}
+
+else if( userValue == "" ){
+$("").show();
+}
+});//Check Box end
 
 
 //Get table of all info when click the button (Table)
