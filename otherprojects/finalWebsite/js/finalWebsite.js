@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  //change button text
+  //change button text (Order Form)
 $("#myButton").on("mouseenter", function() {
     $(this).text("ORDER NOW!!!");
   }) //mouse enter end
@@ -9,7 +9,8 @@ $("#myButton").on("mouseenter", function() {
     $(this).text("Click Me!");
   }); //mouse leave end
 
-  //give the user a message about their selection
+
+  //give the user a message about their selection (Order Form)
     $("#mySelect").on("change", function() {
 
       var val = $(this).val();
@@ -18,7 +19,7 @@ $("#myButton").on("mouseenter", function() {
     }); //change end
 
 
-  //user click button
+  //user click button (Table)
   $("#myButton").on("click", function() {
 
   var myInput = $("#mySingleLineText").val();
@@ -40,25 +41,38 @@ $("#myButton").on("mouseenter", function() {
 
 
 
-//radio buttons show depending on which Genre was chosen
+//radio buttons show depending on which Genre was chosen (Order Form)
 $('.form-control').change(function() {
+var choice = $(this).attr("id");
 
-if( "#animation-genre" === "click"){
-$('#animation-genre').show();
-}
+$("input[type='radio']").hide();
 
-else{
-  $('#comedy-genre').hide();
-  $('#drama-genre').hide();
-  $('#fantasy-genre').hide();
-  $('#horror-genre').hide();
-}  //else end
+if( choice === ".animation-genre" ){
+$('.animation-list').show();
+};
+
+else if (choice === ".comedy-genre"){
+$('.comedy-list').show();
+};
+
+else if (choice === ".drama-genre"){
+$('.drama-list').show();
+};
+
+else if (choice === ".fantasy-genre"){
+$('.fantasy-list').show();
+};
+
+else if (choice ===".horror-genre"){
+$('.horror-list').show();
+};
+
 }); //radio buttons end
 
 
 
 
-//Check boxes show depending on which Show was chosen
+//Check boxes show depending on which Show was chosen (Order Form)
 //$('.checkbox').hide();
 
 $('#friends-selection').click(function(){
@@ -68,7 +82,7 @@ $('#friends-seasons').show();
 // Check boxes ended
 
 
-//Get table of all info when click the button
+//Get table of all info when click the button (Table)
 $("#getInfo").on("click", function() {
 
 var url = "http://huntlaura0110.github.io/otherprojects/finalWebsite/jsonDatabase/finalWebsite.json";
