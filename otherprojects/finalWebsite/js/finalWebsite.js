@@ -11,12 +11,12 @@ $("#myButton").on("mouseenter", function() {
 
 
   //give the user a message about their selection (Order Form)
-  //  $("#mySelect").on("change", function() {
+    $("#mySelect").on("change", function() {
 
-  //    var val = $(this).val();
-    //  $("#mySelectMessage").html(val + " is a great selection!");
+     var val = $(this).val();
+      $("#mySelectMessage").html(val + " is a great selection!");
 
-  //  }); //change end
+    }); //change end
 
 
   //user click button (Table)
