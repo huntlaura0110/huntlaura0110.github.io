@@ -3,6 +3,10 @@ html,body{
     height: 100%;
 }
 
+.radio-inline{
+  display: none;
+}
+
 .animation-list, .comedy-list, .drama-list, .fantasy-list, .horror-list{
   font-weight: normal;
 }
