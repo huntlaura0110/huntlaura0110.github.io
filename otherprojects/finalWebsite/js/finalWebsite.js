@@ -77,7 +77,31 @@ var userValue = $(this).val();
 
 $(".seasons").hide();
 
-if( userValue == "Friends" ){
+if( userValue == "South Park" ){
+$("#south-seasons").show();
+}
+
+else if( userValue == "Simpsons" ){
+$("#simpsons-seasons").show();
+}
+
+else if( userValue == "Family Guy" ){
+$("#family-seasons").show();
+}
+
+else if( userValue == "Boondocks" ){
+$("#boondocks-seasons").show();
+}
+
+else if( userValue == "Flintstones" ){
+$("#flintsones-seasons").show();
+}
+
+else if( userValue == "American Dad" ){
+$("#americandad-seasons").show();
+}
+
+else if( userValue == "Friends" ){
 $("#friends-seasons").show();
 }
 
@@ -122,27 +146,55 @@ $("#homeland-seasons").show();
 }
 
 else if( userValue == "Grey's Anatomy" ){
-$("greys-seasons").show();
+$("#greys-seasons").show();
 }
 
-else if( userValue == "" ){
-$("").show();
+else if( userValue == "Game Of Thrones" ){
+$("#thrones-seasons").show();
 }
 
-else if( userValue == "" ){
-$("").show();
+else if( userValue == "Lost" ){
+$("#lost-seasons").show();
 }
 
-else if( userValue == "" ){
-$("").show();
+else if( userValue == "Heroes" ){
+$("#heroes-seasons").show();
 }
 
-else if( userValue == "" ){
-$("").show();
+else if( userValue == "Supernatural" ){
+$("#super-seasons").show();
 }
 
-else if( userValue == "" ){
-$("").show();
+else if( userValue == "Vampire Diaries" ){
+$("#vampire-seasons").show();
+}
+
+else if( userValue == "Shannara Chronicles" ){
+$("#shannara-seasons").show();
+}
+
+else if( userValue == "Dexter" ){
+$("#dexter-seasons").show();
+}
+
+else if( userValue == "Walking Dead" ){
+$("#walking-seasons").show();
+}
+
+else if( userValue == "American Horror Story" ){
+$("#american-seasons").show();
+}
+
+else if( userValue == "True Blood" ){
+$("#trueblood-seasons").show();
+}
+
+else if( userValue == "X-Files" ){
+$("#xfiles-seasons").show();
+}
+
+else if( userValue == "Sleepy Hollows" ){
+$("#hollows-seasons").show();
 }
 });//Check Box end
 
