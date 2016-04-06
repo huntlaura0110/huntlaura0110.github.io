@@ -46,7 +46,14 @@ text-decoration: none;
 color: #000000;
 }
 
-/* Homepage Dropshadow */ 
+h1{
+  font-family: 'Open Sans', sans-serif;
+ font-size: 18px;
+ line-height: 1.38888;
+ font-weight: 300;
+}
+
+/* Homepage Dropshadow */
 .homepage-imgs img{
 box-shadow: 10px 10px 5px #888888;
 }
